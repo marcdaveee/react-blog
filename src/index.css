@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #242424;
+}
+
+.navbar {
+  width: 700px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #034694;
+  padding: 10px 12px;
+}
+
+.navbar .links {
+  display: flex;
+  gap: 24px;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 3px;
+}
+
+.navbar a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.content {
+  max-width: 700px;
+  height: 800px;
+  overflow-y: auto;
+  margin: 0 auto;
+  background-color: #323232;
+  padding: 20px;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  padding: 6px 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  border: none;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.btn-subscribe {
+  background-color: #ce2029;
+  color: #fff;
+}
+
+/* Blog List */
+
+.blog-list-heading {
+  margin: 10px 0;
+}
+
+.blog-item {
+  padding: 16px;
+  background-color: #3c3c3c;
+  margin-bottom: 20px;
+}
+
+.blog-item-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-item:hover {
+  background-color: #545454;
+}
+
+.blog-item .blog-body {
+  margin: 8px 0;
+}
+
+.blog-item .blog-author {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.loading-message {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
