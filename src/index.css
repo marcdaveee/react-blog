@@ -11,6 +11,10 @@ body {
   background-color: #242424;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navbar {
   width: 700px;
   margin: 20px auto;
