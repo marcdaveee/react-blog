@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #242424;
+  background-color: #041525;
 }
 
 a {
@@ -21,7 +21,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #034694;
+  background-color: #063a76;
+
   padding: 10px 12px;
 }
 
@@ -44,7 +45,7 @@ a {
   height: 800px;
   overflow-y: auto;
   margin: 0 auto;
-  background-color: #323232;
+  background-color: #063a76;
   padding: 20px;
 }
 
@@ -71,6 +72,10 @@ a {
   background-color: #ce2029;
   color: #fff;
 }
+.btn-add {
+  background-color: #0a192a;
+  color: #fff;
+}
 
 /* Blog List */
 
@@ -80,7 +85,7 @@ a {
 
 .blog-item {
   padding: 16px;
-  background-color: #3c3c3c;
+  background-color: #144781;
   margin-bottom: 20px;
 }
 
@@ -91,7 +96,7 @@ a {
 }
 
 .blog-item:hover {
-  background-color: #545454;
+  background-color: #184f8d;
 }
 
 .blog-item .blog-body {
@@ -110,4 +115,42 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-blog h2 {
+  text-align: center;
+}
+
+.create-blog form {
+  /* background-color: #041525; */
+  margin: 0 40px;
+}
+
+.create-blog .form-group {
+  margin: 18px 0;
+}
+
+.create-blog .form-group label {
+  display: block;
+  margin: 10px 0;
+}
+
+.create-blog .form-group input,
+.create-blog .form-group textarea,
+.create-blog .form-group select,
+.create-blog .form-group option {
+  display: block;
+  width: 100%;
+  padding: 5px 6px;
+  color: #121212;
+  font-size: 16px;
+  outline: none;
+  border-radius: 3px;
+  border: none;
 }

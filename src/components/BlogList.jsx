@@ -21,7 +21,7 @@ const BlogList = ({ blogs, title, onRemove }) => {
               </div>
             </div>
 
-            <p className="blog-body">{blog.body}</p>
+            {/* <p className="blog-body">{blog.body}</p> */}
             <p className="blog-author">Writtend by {blog.author}</p>
           </Link>
         </div>
