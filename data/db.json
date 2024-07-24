@@ -23,6 +23,12 @@
       "body": "this is blog body",
       "author": "Dave",
       "id": 4
+    },
+    {
+      "title": "Programmatic Navigation",
+      "body": "test navigation",
+      "author": "Marc",
+      "id": 5
     }
   ]
 }

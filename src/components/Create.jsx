@@ -24,7 +24,7 @@ const Create = () => {
     }).then(() => {
       console.log("New BLOG Added!");
       setIsPending(false);
-      navigate.push("/");
+      navigate("/");
     });
   };
 
